@@ -1,0 +1,29 @@
+body {
+  transition: background-color 0.5s ease, color 0.5s ease;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Button animation */
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #007BFF;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #0056b3;
+}
+
+/* Dark theme */
+body.dark {
+  background-color: #222;
+  color: #f1f1f1;
+}
